@@ -1,3 +1,16 @@
-
+#wrapper {
+  position: relative;
+  height: 800px; }
+  #wrapper .slide-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity 1s linear, transform 6.5s linear; }
+    #wrapper .slide-item.active {
+      opacity: 1; }
+    #wrapper .slide-item.zoom {
+      transform: scale(1.3); }
 
 /*# sourceMappingURL=main.css.map */
